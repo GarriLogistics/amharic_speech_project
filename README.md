@@ -8,3 +8,5 @@ This is a simple scraper to grab audio from youtube videos based on Channel ID. 
 
 You'll need ffmpeg installed
 ` sudo apt install ffmpeg `
+
+So far we have used GCP Buckets and Firebase to store audio files and metadata, respectively. Feel free to replace with your own temporary storage solution if you play with the script.
